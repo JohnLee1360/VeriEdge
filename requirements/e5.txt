@@ -1,1 +1,0 @@
--r ../artifacts/inference-E2E/requester/requirements.txt
