@@ -19,15 +19,18 @@ workspace/runs/**
 !workspace/runs/E5/.gitkeep
 
 # Experiment outputs regenerated locally
-artifacts/thc/output/
-artifacts/TSTC/output/
-artifacts/equivalence/output/
-artifacts/inference-E2E/output/
-artifacts/inference-E2E/requester/output/
+artifacts/_shared/thc/output/
+artifacts/E2/tstc/output/
+artifacts/E5/equivalence/output/
+artifacts/E5/inference_e2e/output/
+artifacts/E5/inference_e2e/requester/output/
 
 # Local machine/config secrets
-artifacts/inference-E2E/requester/config.yaml
-artifacts/inference-E2E/requester/*.local.yaml
+artifacts/E5/inference_e2e/requester/config.yaml
+artifacts/E5/inference_e2e/requester/*.local.yaml
+artifacts/E5/inference_e2e/provider/provider.env
+artifacts/E5/inference_e2e/provider/keys/
+artifacts/E5/inference_e2e/provider/runtime/
 artifacts/mvp/onchain/.env
 *.pem
 *.key
